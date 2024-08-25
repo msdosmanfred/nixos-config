@@ -47,6 +47,7 @@
     displayManager.lightdm.enable = true;
     desktopManager.gnome.enable = false;
     desktopManager.cinnamon.enable = true;
+    desktopManager.xfce.enable = true;
   };
   services.desktopManager.plasma6.enable = true;
   services.displayManager.sddm.enable = false;
