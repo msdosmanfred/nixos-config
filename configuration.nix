@@ -50,6 +50,7 @@
     xkb.layout = "de";
     #xkb.variant = "latin1";
     desktopManager.gnome.enable = true;
+    desktopManager.cinnamon.enable = true;
   };
   services.desktopManager.plasma6.enable = true;
   services.displayManager.sddm.enable = true;
