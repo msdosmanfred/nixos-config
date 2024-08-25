@@ -76,6 +76,7 @@
     rcm
     w3m
     vscode
+    ksshaskpass
   ];
 
   services.pipewire = {
@@ -93,6 +94,10 @@
     guest.draganddrop = true;
   };
   
+  virtualisation.vmware = {
+    guest.enable = true;
+  }
+
   programs.ssh.askPassword = "ksshaskpass";
   nixpkgs.config.allowUnfree = true;
   system.stateVersion = "24.05"; # Did you read the comment?
