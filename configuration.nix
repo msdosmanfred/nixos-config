@@ -98,7 +98,7 @@
   
   virtualisation.vmware = {
     guest.enable = true;
-  }
+  };
 
   programs.ssh.askPassword = "ksshaskpass";
   nixpkgs.config.allowUnfree = true;
