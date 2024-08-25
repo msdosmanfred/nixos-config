@@ -49,11 +49,12 @@
     enable = true;
     xkb.layout = "de";
     #xkb.variant = "latin1";
-    desktopManager.gnome.enable = true;
+    displayManager.lightdm.enable = true;
+    desktopManager.gnome.enable = false;
     desktopManager.cinnamon.enable = true;
   };
   services.desktopManager.plasma6.enable = true;
-  services.displayManager.sddm.enable = true;
+  services.displayManager.sddm.enable = false;
 
   users.users.alex = {
     isNormalUser = true;
