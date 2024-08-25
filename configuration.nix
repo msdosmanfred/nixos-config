@@ -79,6 +79,7 @@
     ksshaskpass
     arc-kde-theme
     arc-icon-theme
+    materia-kde-theme
   ];
 
   services.pipewire = {
