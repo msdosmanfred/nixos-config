@@ -77,6 +77,8 @@
     w3m
     vscode
     ksshaskpass
+    arc-kde-theme
+    arc-icon-theme
   ];
 
   services.pipewire = {
