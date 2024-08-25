@@ -13,11 +13,6 @@
   boot.kernelParams = [ "intel_idle.max_cstate=1" ];
   boot.consoleLogLevel = 0;
   boot.plymouth.enable = true;
-  boot.uvesafb = {
-    enable = true;
-    gfx-mode = "1366x768-32";
-  };
-
   boot.loader = {
     efi = {
       canTouchEfiVariables = true;
@@ -79,9 +74,8 @@
     w3m
     vscode
     ksshaskpass
-    arc-kde-theme
-    arc-icon-theme
-    materia-kde-theme
+    open-vm-tools
+    xorg.xf86videovmware
   ];
 
   services.pipewire = {
@@ -95,8 +89,8 @@
   };
   
   virtualisation.virtualbox = {
-    guest.enable = true;
-    guest.draganddrop = true;
+    guest.enable = false;
+    guest.draganddrop = false;
   };
   
   virtualisation.vmware = {
