@@ -46,8 +46,8 @@
     #xkb.variant = "latin1";
     displayManager.lightdm.enable = false;
     desktopManager.gnome.enable = false;
-    desktopManager.cinnamon.enable = true;
-    desktopManager.xfce.enable = true;
+    desktopManager.cinnamon.enable = false;
+    desktopManager.xfce.enable = false;
   };
   services.desktopManager.plasma6.enable = true;
   services.displayManager.sddm.enable = true;
@@ -76,7 +76,6 @@
     vscode
     ksshaskpass
     open-vm-tools
-    xorg.xf86videovmware
   ];
 
   services.pipewire = {
